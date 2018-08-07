@@ -9,6 +9,15 @@ function destructivelyAddElementToBeginningOfArray(arr, el) {
   return arr;
 }
 
+function addElementToBeginningOfArray(arr, el) {
+  return [el, ...arr];
+}
+
+function destructivelyAddElementToBeginningOfArray(arr, el) {
+  arr.unshift(el);
+  return arr;
+}
+
 function accessElementInArray(arr, i) {
   return arr[i];
 }
