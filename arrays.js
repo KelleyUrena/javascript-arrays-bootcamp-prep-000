@@ -12,3 +12,7 @@ function destructivelyAddElementToBeginningOfArray(el, arr) {
 function accessElementInArray(arr, i) {
   return arr[i];
 }
+
+function removeElementFromBeginningOfArray(arr) {
+  arr.slice
+}
