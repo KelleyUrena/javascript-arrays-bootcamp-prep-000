@@ -16,3 +16,4 @@ function accessElementInArray(arr, i) {
 function removeElementFromBeginningOfArray(arr) {
   return arr.slice(1);
 }
+
