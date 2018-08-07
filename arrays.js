@@ -22,3 +22,7 @@ function destructivelyRemoveElementFromEndOfArray(arr) {
   return arr;
 }
 
+function removeElementFromEndOfArray(arr) {
+  
+}
+
